@@ -5,12 +5,17 @@ import ToggleSwitchApp from "./React JS Concepts/ToggleSwitchApp";
 import DynamicListApp from "./React JS Concepts/DynamicListApp";
 import DataFetchingApp from "./React JS Concepts/DataFetchingApp";
 import HighlightItemApp from "./React JS Concepts/HIghlightItemApp";
+import ControlledInputApp from "./React JS Concepts/ControlledInputApp";
+import SimpleFormValidation from "./React JS Concepts/SimpleFormValidation";
+import SimpleFilterApp from "./React JS Concepts/SearchFilterApp";
 
 function HomePage() {
   return (
     <div>
       <header style={{ padding: "1rem", background: "#f5f5f5" }}>
-        <h1>Welcome to My React Learning Website</h1>
+        <h1 style={{ textAlign: "center" }}>
+          Welcome to My React Learning Website
+        </h1>
         <p>
           This site is dedicated to exploring the fundamentals and advacnced
           concepts of the React Library, a poewerful tool for buildinguser
@@ -35,12 +40,15 @@ function HomePage() {
           <DynamicListApp />
           <DataFetchingApp />
           <HighlightItemApp />
+          <ControlledInputApp />
+          <SimpleFormValidation />
+          <SimpleFilterApp />
         </div>
       </main>
       <footer
         style={{ padding: "1rem", background: "#f5f5f5", textAlign: "center" }}
       >
-        © 2024 My Website
+        © 2024 My React Learning Website
       </footer>
     </div>
   );
